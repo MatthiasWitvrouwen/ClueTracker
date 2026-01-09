@@ -1,29 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<title>Clue Tracker</title>
-<link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8">
+  <title>ClueTracker</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+  <h1>ClueTracker</h1>
+  <div id="status">Waiting for chatbox...</div>
 
-<h2>Clue Tracker</h2>
+  <h2>Pickpocketed Clues (Non-BIK)</h2>
+  <ul>
+    <li>Easy: <span id="nonbik-easy">0</span></li>
+    <li>Medium: <span id="nonbik-medium">0</span></li>
+    <li>Hard: <span id="nonbik-hard">0</span></li>
+    <li>Elite: <span id="nonbik-elite">0</span></li>
+    <li>Master: <span id="nonbik-master">0</span></li>
+  </ul>
 
-<table>
-  <tr><th>Tier</th><th>Bik</th><th>Non-Bik</th><th>/hr</th></tr>
-  <tr><td>Easy</td><td id="bik-easy">0</td><td id="nonbik-easy">0</td><td id="rate-easy">0.00</td></tr>
-  <tr><td>Medium</td><td id="bik-medium">0</td><td id="nonbik-medium">0</td><td id="rate-medium">0.00</td></tr>
-  <tr><td>Hard</td><td id="bik-hard">0</td><td id="nonbik-hard">0</td><td id="rate-hard">0.00</td></tr>
-  <tr><td>Elite</td><td id="bik-elite">0</td><td id="nonbik-elite">0</td><td id="rate-elite">0.00</td></tr>
-  <tr><td>Master</td><td id="bik-master">0</td><td id="nonbik-master">0</td><td id="rate-master">0.00</td></tr>
-</table>
+  <h2>BIK Clues</h2>
+  <ul>
+    <li>Easy: <span id="bik-easy">0</span></li>
+    <li>Medium: <span id="bik-medium">0</span></li>
+    <li>Hard: <span id="bik-hard">0</span></li>
+    <li>Elite: <span id="bik-elite">0</span></li>
+    <li>Master: <span id="bik-master">0</span></li>
+  </ul>
 
-<button id="resetButton">Reset session</button>
+  <h2>Rates per Hour</h2>
+  <ul>
+    <li>Easy: <span id="rate-easy">0.00</span></li>
+    <li>Medium: <span id="rate-medium">0.00</span></li>
+    <li>Hard: <span id="rate-hard">0.00</span></li>
+    <li>Elite: <span id="rate-elite">0.00</span></li>
+    <li>Master: <span id="rate-master">0.00</span></li>
+  </ul>
 
-<h3>Status (Debug)</h3>
-<div id="status">Waiting...</div>
+  <button id="resetButton">Reset Session</button>
 
-<script src="./dist/bundle.js"></script>
-
+  <script src="./dist/bundle.js"></script>
 </body>
 </html>

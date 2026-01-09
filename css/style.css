@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 body { background:#111; color:#eee; font-family:Arial,sans-serif; padding:8px; }
 table { width:100%; border-collapse:collapse; margin-bottom:8px; }
 td,th { padding:4px; border-bottom:1px solid #333; text-align:center; }
 button { padding:4px 8px; margin:4px 0; }
 #status { font-size:11px; color:#ccc; margin-top:6px; word-break:break-word; }
+=======
+body { background:#111; color:#eee; font-family:Arial,sans-serif; padding:8px; }
+table { width:100%; border-collapse:collapse; margin-bottom:8px; }
+td,th { padding:4px; border-bottom:1px solid #333; text-align:center; }
+button { padding:4px 8px; margin:4px 0; }
+#status { font-size:11px; color:#ccc; margin-top:6px; word-break:break-word; }
+>>>>>>> 3c507f75246ee558e37ffe93f0eb67e2adec6449
